@@ -1,0 +1,4 @@
+(add-to-list 'load-path )
+(load-file "~/install/cedet-bzr/lisp/cedet/cedet.el")
+(require 'ecb)
+(setq debug-on-error t)
