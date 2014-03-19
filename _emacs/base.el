@@ -390,3 +390,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (add-to-list 'load-path "~/_emacs/git-emacs/")
 (require 'git-emacs)
 
+(require 'ibus)  
+(add-hook 'after-init-hook 'ibus-mode-on)  
+;; (ibus-define-common-key ?\C-\s nil)  
+;; (global-set-key (kbd "\S-\ ") 'ibus-toggle) 
