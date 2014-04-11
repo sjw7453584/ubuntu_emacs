@@ -390,3 +390,4 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (add-to-list 'load-path "~/_emacs/git-emacs/")
 (require 'git-emacs)
 
+(ansi-color-for-comint-mode-on)
